@@ -1,0 +1,25 @@
+const images = {
+  logo: require('./logo-icon.png'),
+  editprofile: require('./editprofile.png'),
+  bgcolor: require('./bgcolor.png'),
+  newlogo: require('./newlogo.png'),
+  phone: require('./phone.png'),
+  defaultProfile: require('./defaultProfile.png'),
+  flip: require('./flip.png'),
+  defaultImage: require('./defaultImage.png'),
+  myConnectionsHeaderBackground: require('./MyConnectionsHeaderBackground.png'),
+  headerLogo: require('./headerLogo.png'),
+  personalProfileBackgroundImage: require('./personalProfileBackgroundImage.png'),
+  headerTopLogo: require('./logo55x55.png'),
+  group: require('./users45x45.png'),
+  //meetingIcon:require('./MeetingIcon.png'),
+  meetingImg: require('./MeetingImg.png'),
+  groupMeeting: require('./GroupMeeting.png'),
+  createGroup: require('./creategroup.png'),
+  meetinginFloat: require('./MeetingfloatIcon.png'),
+  personalProfileBackgroundImage1: require('./personalProfileBackgroundImage.png'),
+  colorIcon: require('./coloricon.png'),
+  resetToDefualt: require('./ResetToDefualt.png'),
+};
+
+export default images;

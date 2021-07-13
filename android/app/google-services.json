@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "735466763409",
+    "firebase_url": "https://nobhub-54b60.firebaseio.com",
+    "project_id": "nobhub-54b60",
+    "storage_bucket": "nobhub-54b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735466763409:android:2782ae0319ef4f46637b30",
+        "android_client_info": {
+          "package_name": "com.nobhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735466763409-h70ell79fp3nn18643mop4gcocs53bqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDww2eCQJUOAiBr9_j3b_RTN4ik-3L-TOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735466763409-h70ell79fp3nn18643mop4gcocs53bqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

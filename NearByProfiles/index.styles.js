@@ -1,0 +1,222 @@
+import { Dimensions, Platform } from 'react-native';
+import { CommonStyles } from '../shared/Constants';
+
+export const styles = {
+  fab: {
+    height: 80,
+    width: 80,
+    borderRadius: 180,
+    position: 'absolute',
+  },
+  icnScanner: { color: '#a9a9a9', fontSize: 16, top: 7 },
+  toolScanner: { color: '#a9a9a9', fontSize: 16 },
+  viewScanner: {
+    flex: 0.3,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    right: Platform.OS == 'android' ? 10 : 20,
+    //marginTop: 5,
+    //marginRight: 10,
+  },
+  iconSearch: { fontSize: 16, color: '#a9a9a9' },
+  TextInputStyleClass: {
+    flex: 2,
+    //height: 18,
+    underlineColor: 'transparent',
+    //paddingRight: 90,
+  },
+  leftHeader: {
+    flexDirection: 'column',
+    height: 38,
+    width: 38,
+    borderRadius: 80,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    backgroundColor: '#ffffff',
+  },
+
+  dbList: {
+    borderColor: '#e0e0e0',
+    width: Dimensions.get('window').width / 2,
+    height: 200,
+    borderBottomWidth: 1,
+    borderRightWidth: 1,
+    //borderRadius: 10,
+    paddingLeft: 10,
+    paddingRight: 10,
+    justifyContent: "space-around"
+  },
+  iconViewStyle: {
+    // flex: 1,
+    height: 35,
+    width: 35,
+    borderRadius: 70,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    backgroundColor: '#ffffff',
+    borderColor: CommonStyles.appColor,
+    borderWidth: 2,
+  },
+  iconStyle: {
+    color: CommonStyles.appColor,
+    fontSize: 18,
+  },
+  invitationTextView: {
+    flex: 0.5,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  userName: {
+    color: '#000000',
+    fontSize: 18,
+  },
+  profileCircleView: {
+    flexDirection: 'row',
+    flex: 0.55,
+    alignSelf: 'center',
+    position: 'relative',
+  },
+  nameTitleView: {
+    flex: 0.3,
+    flexDirection: 'column',
+    //margin: 70,
+    //width: Dimensions.get('window').width / 2.4,
+    alignSelf: 'center',
+  },
+  touchableMessage: {
+    height: 23,
+    width: 23,
+    backgroundColor: CommonStyles.appColor,
+    borderRadius: 35,
+    right: 40,
+    bottom: 25,
+  },
+  touchablePlus: {
+    height: 23,
+    width: 23,
+    backgroundColor: CommonStyles.appColor,
+    borderRadius: 35,
+    marginLeft: 85,
+    bottom: 48
+  },
+  buttonText: {
+    color: '#1f1f1f',
+    fontSize: 16,
+    //fontWeight: 'bold',
+    textAlign: 'center',
+    alignSelf: 'center',
+  },
+
+  Ibutton: {
+    //alignItems: 'center',
+    //backgroundColor: CommonStyles.appColor,
+    // color: 'red',
+    //marginLeft: 18,
+    position: 'absolute',
+    top: 10,
+    left: 15,
+    borderRadius: 50,
+    flex: 1,
+  },
+  iconClose: {
+    color: '#ffffff',
+    fontSize: 20
+  },
+  iconMessage: {
+    //color: CommonStyles.appColor,
+    color: '#ffffff',
+    fontSize: 20
+  },
+  headerCustomMenu: {
+    marginRight: 5,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    borderRadius: 100,
+  },
+  headerTextMenu: {
+    color: 'red',
+  },
+  headerCenterView: {
+    flex: 1,
+    flexDirection: 'row',
+    backgroundColor: 'white',
+    borderBottomLeftRadius: 40,
+    borderBottomRightRadius: 40,
+    borderTopLeftRadius: 40,
+    borderTopRightRadius: 40,
+    width: Dimensions.get('window').width * 0.56,
+    top: 3
+  },
+  cardsWrapper: {
+    //flex: 1,
+    marginTop: 5,
+    width: '100%',
+    alignSelf: 'center',
+  },
+  card: {
+    height: 110,
+    marginVertical: 2,
+    flexDirection: 'row',
+    shadowColor: '#999',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
+    borderRadius: 8,
+  },
+  cardImgWrapper: {
+    flex: 1,
+  },
+  cardImg: {
+    height: '100%',
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    borderRadius: 8,
+    borderBottomRightRadius: 0,
+    borderTopRightRadius: 0,
+    borderBottomLeftRadius: 8,
+    borderTopLeftRadius: 8,
+    overflow: "hidden"
+  },
+  cardImgBg: {
+    height: '100%',
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    borderRadius: 8,
+    borderBottomRightRadius: 0,
+    borderTopRightRadius: 0,
+    borderBottomLeftRadius: 8,
+    borderTopLeftRadius: 8,
+    overflow: "hidden"
+  },
+  cardInfo: {
+    flex: 2,
+    padding: 6,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderLeftWidth: 0,
+    borderBottomRightRadius: 8,
+    borderTopRightRadius: 8,
+    backgroundColor: '#fff',
+  },
+  cardTitle: {
+    fontWeight: 'bold',
+  },
+  cardDetails: {
+    fontSize: 12,
+    color: '#444',
+  },
+  profileImage: {
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "center",
+    paddingTop: 105,
+  },
+};
